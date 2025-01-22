@@ -1,0 +1,75 @@
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+h2 {
+  color: #555;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input[type='text'] {
+  width: 70%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 16px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 16px;
+  background-color: #28a745;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+div {
+  margin: 10px 0;
+}
+
+pre {
+  background-color: #f8f9fa;
+  padding: 10px;
+  border-radius: 5px;
+  overflow: auto;
+}
+
+p {
+  margin: 5px 0;
+}
+
+p strong {
+  color: #333;
+}
+
+#qrCode-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+img {
+  max-width: 150px;
+  margin-top: 10px;
+}
